@@ -7,8 +7,8 @@ use Crudomator\Crud;
 $config = [
 
     'base' => 'http://localhost/rest/index.php',
-    'db' =>['localhost','minion','w[I5VUs0Xd5F[yGR','rest'],
-    'table'=> ['users'],
+    'db' =>['localhost','root',' ','rest'],
+    'table'=> 'users',
     'fields' => [
         'name' => 'User Name',
         'email' => 'User Email',
